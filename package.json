@@ -1,0 +1,32 @@
+{
+  "name": "arvis-chrome-bookmark-plugin",
+  "version": "0.0.6",
+  "description": "Search Google Chrome Bookmark in Arvis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "arvish-init",
+    "preuninstall": "arvish-cleanup",
+    "prepublishOnly": "arvish-prepublish"
+  },
+  "keywords": [
+    "arvis",
+    "arvish",
+    "arvis-plugin",
+    "chrome-bookmark",
+    "chrome"
+  ],
+  "files": [
+    "index.js",
+    "src",
+    "arvis-plugin.json",
+    "icon.png"
+  ],
+  "author": "jopemachine",
+  "license": "MIT",
+  "dependencies": {
+    "arvish": "^0.6.1",
+    "lodash": "^4.17.21",
+    "psl": "^1.8.0"
+  }
+}

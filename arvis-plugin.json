@@ -1,0 +1,23 @@
+{
+    "$schema": "https://raw.githubusercontent.com/jopemachine/arvis-extension-validator/master/plugin-schema.json",
+    "creator": "jopemachine",
+    "name": "arvis-chrome-bookmark-plugin",
+    "enabled": true,
+    "description": "Search Google Chrome Bookmark in Arvis",
+    "readme": "",
+    "version": "0.0.6",
+    "webAddress": "https://github.com/jopemachine/arvis-chrome-bookmark-plugin",
+    "main": "index.js",
+    "defaultIcon": "icon.png",
+    "variables": {
+        "browser": "Chrome",
+        "chrome_profile": "Default"
+    },
+    "actions": [
+        {
+            "type": "open",
+            "modifiers": "normal",
+            "target": "{query}"
+        }
+    ]
+}
