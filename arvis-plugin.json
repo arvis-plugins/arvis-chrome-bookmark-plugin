@@ -5,8 +5,8 @@
     "enabled": true,
     "description": "Search Google Chrome Bookmark in Arvis",
     "readme": "",
-    "version": "0.0.6",
-    "webAddress": "https://github.com/jopemachine/arvis-chrome-bookmark-plugin",
+    "version": "0.0.7",
+    "webAddress": "https://github.com/arvis-plugins/arvis-chrome-bookmark-plugin",
     "main": "index.js",
     "defaultIcon": "icon.png",
     "variables": {

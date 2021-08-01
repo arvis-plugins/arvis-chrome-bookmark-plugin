@@ -1,6 +1,6 @@
 {
   "name": "arvis-chrome-bookmark-plugin",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Search Google Chrome Bookmark in Arvis",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,7 @@
   "author": "jopemachine",
   "license": "MIT",
   "dependencies": {
-    "arvish": "^0.6.1",
+    "arvish": ">=0.7.0",
     "lodash": "^4.17.21",
     "psl": "^1.8.0"
   }

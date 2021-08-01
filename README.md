@@ -7,7 +7,7 @@
 
 Search Google Chrome Bookmark in Arvis
 
-![](./demo.png)
+![](./media/demo.png)
 
 ## Installation
 
